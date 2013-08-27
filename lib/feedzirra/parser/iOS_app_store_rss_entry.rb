@@ -26,7 +26,7 @@ module Feedzirra
       element :"im:image", :as => :image_75_url, :with => { :height => "75" }
       element :"im:image", :as => :image_100_url, :with => { :height => "100" }
       element :"im:releaseDate", :as => :releaseDate, :value => :label
-      element :cotent
+      element :content
       element :rights
           
       def app_id
