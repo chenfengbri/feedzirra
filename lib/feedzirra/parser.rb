@@ -1,5 +1,8 @@
 module Feedzirra
   module Parser
+    autoload :IOSAppStoreRSS,     'feedzirra/parser/iOS_app_store_rss'
+    autoload :IOSAppStoreRSSEntry,'feedzirra/parser/iOS_app_store_rss_entry'
+
     autoload :RSS,                'feedzirra/parser/rss'
     autoload :RSSEntry,           'feedzirra/parser/rss_entry'
     autoload :RSSFeedBurner,      'feedzirra/parser/rss_feed_burner'
